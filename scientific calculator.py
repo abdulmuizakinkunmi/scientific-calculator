@@ -7,7 +7,7 @@ function=input('''
    Enter d for exponentiation:
  ''')
 if function=='a':
-    operation=input('Enter a for addition,s for subtraction, m for multiplication, d for division:')
+    operation=input('Enter a for addition, s for subtraction, m for multiplication, d for division:')
     if operation=='a':
        a=int(input('Enter first number:'))
        b=int(input('Enter second number:'))
